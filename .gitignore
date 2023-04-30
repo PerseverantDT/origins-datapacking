@@ -1,0 +1,6 @@
+# Configuration Files
+.vscode/
+
+# Working Files
+*.xcf
+*.test
