@@ -4,3 +4,7 @@
 # Working Files
 *.xcf
 *.test
+
+# Builder files
+DPRPBuilder.jar
+**/dprpbuilder.json5
