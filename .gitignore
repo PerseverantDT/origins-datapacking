@@ -8,3 +8,4 @@
 # Builder files
 DPRPBuilder.jar
 **/dprpbuilder.json5
+**/build/
