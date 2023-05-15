@@ -38,7 +38,7 @@ Consume a soul fragment to empower your barrier.
 
 - Cooldown: None
 - Consumes 1 Soul Fragment
-- +20 shield durability
+- +15 shield durability
 
 ### Protective Field (Second Ability)
 
