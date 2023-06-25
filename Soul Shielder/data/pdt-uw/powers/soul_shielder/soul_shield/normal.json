@@ -11,7 +11,7 @@
 				},
 				{
 					"type": "apoli:execute_command",
-					"command": "scoreboard players set @s pdt-uw.soul_shield.max 100"
+					"command": "scoreboard players set @s pdt-uw.soul_shield.max 200"
 				},
 				{
 					"type": "apoli:execute_command",
@@ -27,7 +27,7 @@
 	"strength": {
 		"type": "apoli:resource",
 		"min": 0,
-		"max": 100,
+		"max": 200,
 		"start_value": 20,
 		"hud_render": {
 			"should_render": false
@@ -81,7 +81,7 @@
 	"visual_regular": {
 		"type": "apoli:resource",
 		"min": 20,
-		"max": 50,
+		"max": 100,
 		"start_value": 20,
 		"hud_render": {
 			"should_render": true,
@@ -100,7 +100,7 @@
 						"type": "apoli:resource",
 						"resource": "*:*_strength",
 						"comparison": "<=",
-						"compare_to": 50
+						"compare_to": 100
 					}
 				]
 			}
@@ -108,8 +108,8 @@
 	},
 	"visual_strong": {
 		"type": "apoli:resource",
-		"min": 50,
-		"max": 100,
+		"min": 100,
+		"max": 200,
 		"start_value": 50,
 		"hud_render": {
 			"should_render": true,
@@ -119,7 +119,7 @@
 				"type": "apoli:resource",
 				"resource": "*:*_strength",
 				"comparison": ">",
-				"compare_to": 50
+				"compare_to": 100
 			}
 		}
 	},
