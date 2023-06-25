@@ -1,0 +1,721 @@
+{
+	"hidden": true,
+	"type": "apoli:multiple",
+	"1wns": {
+		"type": "apoli:modify_damage_taken",
+		"condition": {
+			"type": "apoli:or",
+			"conditions": [
+				{
+					"type": "apoli:predicate",
+					"predicate": "pdt-uw:soul_shield/is_weak"
+				},
+				{
+					"type": "apoli:predicate",
+					"predicate": "pdt-uw:soul_shield/is_normal"
+				},
+				{
+					"type": "apoli:predicate",
+					"predicate": "pdt-uw:soul_shield/is_strong"
+				}
+			]
+		},
+		"damage_condition": {
+			"type": "apoli:amount",
+			"comparison": "<=",
+			"compare_to": 1
+		},
+		"modifier": {
+			"operation": "add_base_early",
+			"value": -1
+		},
+		"self_action": {
+			"type": "apoli:execute_command",
+			"command": "scoreboard players remove @s pdt-uw.soul_shield 1"
+		}
+	},
+	"2wns": {
+		"type": "apoli:modify_damage_taken",
+		"condition": {
+			"type": "apoli:or",
+			"conditions": [
+				{
+					"type": "apoli:predicate",
+					"predicate": "pdt-uw:soul_shield/is_weak"
+				},
+				{
+					"type": "apoli:predicate",
+					"predicate": "pdt-uw:soul_shield/is_normal"
+				},
+				{
+					"type": "apoli:predicate",
+					"predicate": "pdt-uw:soul_shield/is_strong"
+				}
+			]
+		},
+		"damage_condition": {
+			"type": "apoli:and",
+			"conditions": [
+				{
+					"type": "apoli:amount",
+					"comparison": ">",
+					"compare_to": 1
+				},
+				{
+					"type": "apoli:amount",
+					"comparison": "<=",
+					"compare_to": 2
+				}
+			]
+		},
+		"modifier": {
+			"operation": "add_base_early",
+			"value": -2
+		},
+		"self_action": {
+			"type": "apoli:execute_command",
+			"command": "scoreboard players remove @s pdt-uw.soul_shield 2"
+		}
+	},
+	"3wns": {
+		"type": "apoli:modify_damage_taken",
+		"condition": {
+			"type": "apoli:or",
+			"conditions": [
+				{
+					"type": "apoli:predicate",
+					"predicate": "pdt-uw:soul_shield/is_weak"
+				},
+				{
+					"type": "apoli:predicate",
+					"predicate": "pdt-uw:soul_shield/is_normal"
+				},
+				{
+					"type": "apoli:predicate",
+					"predicate": "pdt-uw:soul_shield/is_strong"
+				}
+			]
+		},
+		"damage_condition": {
+			"type": "apoli:and",
+			"conditions": [
+				{
+					"type": "apoli:amount",
+					"comparison": ">",
+					"compare_to": 2
+				},
+				{
+					"type": "apoli:amount",
+					"comparison": "<=",
+					"compare_to": 3
+				}
+			]
+		},
+		"modifier": {
+			"operation": "add_base_early",
+			"value": -3
+		},
+		"self_action": {
+			"type": "apoli:execute_command",
+			"command": "scoreboard players remove @s pdt-uw.soul_shield 3"
+		}
+	},
+	"4wns": {
+		"type": "apoli:modify_damage_taken",
+		"condition": {
+			"type": "apoli:or",
+			"conditions": [
+				{
+					"type": "apoli:predicate",
+					"predicate": "pdt-uw:soul_shield/is_weak"
+				},
+				{
+					"type": "apoli:predicate",
+					"predicate": "pdt-uw:soul_shield/is_normal"
+				},
+				{
+					"type": "apoli:predicate",
+					"predicate": "pdt-uw:soul_shield/is_strong"
+				}
+			]
+		},
+		"damage_condition": {
+			"type": "apoli:and",
+			"conditions": [
+				{
+					"type": "apoli:amount",
+					"comparison": ">",
+					"compare_to": 3
+				},
+				{
+					"type": "apoli:amount",
+					"comparison": "<=",
+					"compare_to": 4
+				}
+			]
+		},
+		"modifier": {
+			"operation": "add_base_early",
+			"value": -4
+		},
+		"self_action": {
+			"type": "apoli:execute_command",
+			"command": "scoreboard players remove @s pdt-uw.soul_shield 4"
+		}
+	},
+	"5w": {
+		"type": "apoli:modify_damage_taken",
+		"condition": {
+			"type": "apoli:predicate",
+			"predicate": "pdt-uw:soul_shield/is_weak"
+		},
+		"damage_condition": {
+			"type": "apoli:amount",
+			"comparison": ">",
+			"compare_to": 4
+		},
+		"modifier": {
+			"operation": "add_base_early",
+			"value": -5
+		},
+		"self_action": {
+			"type": "apoli:execute_command",
+			"command": "scoreboard players remove @s pdt-uw.soul_shield 5"
+		}
+	},
+	"5ns": {
+		"type": "apoli:modify_damage_taken",
+		"condition": {
+			"type": "apoli:or",
+			"conditions": [
+				{
+					"type": "apoli:predicate",
+					"predicate": "pdt-uw:soul_shield/is_normal"
+				},
+				{
+					"type": "apoli:predicate",
+					"predicate": "pdt-uw:soul_shield/is_strong"
+				}
+			]
+		},
+		"damage_condition": {
+			"type": "apoli:and",
+			"conditions": [
+				{
+					"type": "apoli:amount",
+					"comparison": ">",
+					"compare_to": 4
+				},
+				{
+					"type": "apoli:amount",
+					"comparison": "<=",
+					"compare_to": 5
+				}
+			]
+		},
+		"modifier": {
+			"operation": "add_base_early",
+			"value": -5
+		},
+		"self_action": {
+			"type": "apoli:execute_command",
+			"command": "scoreboard players remove @s pdt-uw.soul_shield 5"
+		}
+	},
+	"6ns": {
+		"type": "apoli:modify_damage_taken",
+		"condition": {
+			"type": "apoli:or",
+			"conditions": [
+				{
+					"type": "apoli:predicate",
+					"predicate": "pdt-uw:soul_shield/is_normal"
+				},
+				{
+					"type": "apoli:predicate",
+					"predicate": "pdt-uw:soul_shield/is_strong"
+				}
+			]
+		},
+		"damage_condition": {
+			"type": "apoli:and",
+			"conditions": [
+				{
+					"type": "apoli:amount",
+					"comparison": ">",
+					"compare_to": 5
+				},
+				{
+					"type": "apoli:amount",
+					"comparison": "<=",
+					"compare_to": 6
+				}
+			]
+		},
+		"modifier": {
+			"operation": "add_base_early",
+			"value": -6
+		},
+		"self_action": {
+			"type": "apoli:execute_command",
+			"command": "scoreboard players remove @s pdt-uw.soul_shield 6"
+		}
+	},
+	"7ns": {
+		"type": "apoli:modify_damage_taken",
+		"condition": {
+			"type": "apoli:or",
+			"conditions": [
+				{
+					"type": "apoli:predicate",
+					"predicate": "pdt-uw:soul_shield/is_normal"
+				},
+				{
+					"type": "apoli:predicate",
+					"predicate": "pdt-uw:soul_shield/is_strong"
+				}
+			]
+		},
+		"damage_condition": {
+			"type": "apoli:and",
+			"conditions": [
+				{
+					"type": "apoli:amount",
+					"comparison": ">",
+					"compare_to": 6
+				},
+				{
+					"type": "apoli:amount",
+					"comparison": "<=",
+					"compare_to": 7
+				}
+			]
+		},
+		"modifier": {
+			"operation": "add_base_early",
+			"value": -7
+		},
+		"self_action": {
+			"type": "apoli:execute_command",
+			"command": "scoreboard players remove @s pdt-uw.soul_shield 7"
+		}
+	},
+	"8ns": {
+		"type": "apoli:modify_damage_taken",
+		"condition": {
+			"type": "apoli:or",
+			"conditions": [
+				{
+					"type": "apoli:predicate",
+					"predicate": "pdt-uw:soul_shield/is_normal"
+				},
+				{
+					"type": "apoli:predicate",
+					"predicate": "pdt-uw:soul_shield/is_strong"
+				}
+			]
+		},
+		"damage_condition": {
+			"type": "apoli:and",
+			"conditions": [
+				{
+					"type": "apoli:amount",
+					"comparison": ">",
+					"compare_to": 7
+				},
+				{
+					"type": "apoli:amount",
+					"comparison": "<=",
+					"compare_to": 8
+				}
+			]
+		},
+		"modifier": {
+			"operation": "add_base_early",
+			"value": -8
+		},
+		"self_action": {
+			"type": "apoli:execute_command",
+			"command": "scoreboard players remove @s pdt-uw.soul_shield 8"
+		}
+	},
+	"9ns": {
+		"type": "apoli:modify_damage_taken",
+		"condition": {
+			"type": "apoli:or",
+			"conditions": [
+				{
+					"type": "apoli:predicate",
+					"predicate": "pdt-uw:soul_shield/is_normal"
+				},
+				{
+					"type": "apoli:predicate",
+					"predicate": "pdt-uw:soul_shield/is_strong"
+				}
+			]
+		},
+		"damage_condition": {
+			"type": "apoli:and",
+			"conditions": [
+				{
+					"type": "apoli:amount",
+					"comparison": ">",
+					"compare_to": 8
+				},
+				{
+					"type": "apoli:amount",
+					"comparison": "<=",
+					"compare_to": 9
+				}
+			]
+		},
+		"modifier": {
+			"operation": "add_base_early",
+			"value": -9
+		},
+		"self_action": {
+			"type": "apoli:execute_command",
+			"command": "scoreboard players remove @s pdt-uw.soul_shield 9"
+		}
+	},
+	"10n": {
+		"type": "apoli:modify_damage_taken",
+		"condition": {
+			"type": "apoli:predicate",
+			"predicate": "pdt-uw:soul_shield/is_normal"
+		},
+		"damage_condition": {
+			"type": "apoli:amount",
+			"comparison": ">",
+			"compare_to": 9
+		},
+		"modifier": {
+			"operation": "add_base_early",
+			"value": -10
+		},
+		"self_action": {
+			"type": "apoli:execute_command",
+			"command": "scoreboard players remove @s pdt-uw.soul_shield 10"
+		}
+	},
+	"10s": {
+		"type": "apoli:modify_damage_taken",
+		"condition": {
+			"type": "apoli:predicate",
+			"predicate": "pdt-uw:soul_shield/is_strong"
+		},
+		"damage_condition": {
+			"type": "apoli:and",
+			"conditions": [
+				{
+					"type": "apoli:amount",
+					"comparison": ">",
+					"compare_to": 9
+				},
+				{
+					"type": "apoli:amount",
+					"comparison": "<=",
+					"compare_to": 10
+				}
+			]
+		},
+		"modifier": {
+			"operation": "add_base_early",
+			"value": -10
+		},
+		"self_action": {
+			"type": "apoli:execute_command",
+			"command": "scoreboard players remove @s pdt-uw.soul_shield 10"
+		}
+	},
+	"11s": {
+		"type": "apoli:modify_damage_taken",
+		"condition": {
+			"type": "apoli:predicate",
+			"predicate": "pdt-uw:soul_shield/is_strong"
+		},
+		"damage_condition": {
+			"type": "apoli:and",
+			"conditions": [
+				{
+					"type": "apoli:amount",
+					"comparison": ">",
+					"compare_to": 10
+				},
+				{
+					"type": "apoli:amount",
+					"comparison": "<=",
+					"compare_to": 11
+				}
+			]
+		},
+		"modifier": {
+			"operation": "add_base_early",
+			"value": -11
+		},
+		"self_action": {
+			"type": "apoli:execute_command",
+			"command": "scoreboard players remove @s pdt-uw.soul_shield 11"
+		}
+	},
+	"12s": {
+		"type": "apoli:modify_damage_taken",
+		"condition": {
+			"type": "apoli:predicate",
+			"predicate": "pdt-uw:soul_shield/is_strong"
+		},
+		"damage_condition": {
+			"type": "apoli:and",
+			"conditions": [
+				{
+					"type": "apoli:amount",
+					"comparison": ">",
+					"compare_to": 11
+				},
+				{
+					"type": "apoli:amount",
+					"comparison": "<=",
+					"compare_to": 12
+				}
+			]
+		},
+		"modifier": {
+			"operation": "add_base_early",
+			"value": -12
+		},
+		"self_action": {
+			"type": "apoli:execute_command",
+			"command": "scoreboard players remove @s pdt-uw.soul_shield 12"
+		}
+	},
+	"13s": {
+		"type": "apoli:modify_damage_taken",
+		"condition": {
+			"type": "apoli:predicate",
+			"predicate": "pdt-uw:soul_shield/is_strong"
+		},
+		"damage_condition": {
+			"type": "apoli:and",
+			"conditions": [
+				{
+					"type": "apoli:amount",
+					"comparison": ">",
+					"compare_to": 12
+				},
+				{
+					"type": "apoli:amount",
+					"comparison": "<=",
+					"compare_to": 13
+				}
+			]
+		},
+		"modifier": {
+			"operation": "add_base_early",
+			"value": -13
+		},
+		"self_action": {
+			"type": "apoli:execute_command",
+			"command": "scoreboard players remove @s pdt-uw.soul_shield 13"
+		}
+	},
+	"14s": {
+		"type": "apoli:modify_damage_taken",
+		"condition": {
+			"type": "apoli:predicate",
+			"predicate": "pdt-uw:soul_shield/is_strong"
+		},
+		"damage_condition": {
+			"type": "apoli:and",
+			"conditions": [
+				{
+					"type": "apoli:amount",
+					"comparison": ">",
+					"compare_to": 13
+				},
+				{
+					"type": "apoli:amount",
+					"comparison": "<=",
+					"compare_to": 14
+				}
+			]
+		},
+		"modifier": {
+			"operation": "add_base_early",
+			"value": -14
+		},
+		"self_action": {
+			"type": "apoli:execute_command",
+			"command": "scoreboard players remove @s pdt-uw.soul_shield 14"
+		}
+	},
+	"15s": {
+		"type": "apoli:modify_damage_taken",
+		"condition": {
+			"type": "apoli:predicate",
+			"predicate": "pdt-uw:soul_shield/is_strong"
+		},
+		"damage_condition": {
+			"type": "apoli:and",
+			"conditions": [
+				{
+					"type": "apoli:amount",
+					"comparison": ">",
+					"compare_to": 14
+				},
+				{
+					"type": "apoli:amount",
+					"comparison": "<=",
+					"compare_to": 15
+				}
+			]
+		},
+		"modifier": {
+			"operation": "add_base_early",
+			"value": -15
+		},
+		"self_action": {
+			"type": "apoli:execute_command",
+			"command": "scoreboard players remove @s pdt-uw.soul_shield 15"
+		}
+	},
+	"16s": {
+		"type": "apoli:modify_damage_taken",
+		"condition": {
+			"type": "apoli:predicate",
+			"predicate": "pdt-uw:soul_shield/is_strong"
+		},
+		"damage_condition": {
+			"type": "apoli:and",
+			"conditions": [
+				{
+					"type": "apoli:amount",
+					"comparison": ">",
+					"compare_to": 15
+				},
+				{
+					"type": "apoli:amount",
+					"comparison": "<=",
+					"compare_to": 16
+				}
+			]
+		},
+		"modifier": {
+			"operation": "add_base_early",
+			"value": -16
+		},
+		"self_action": {
+			"type": "apoli:execute_command",
+			"command": "scoreboard players remove @s pdt-uw.soul_shield 16"
+		}
+	},
+	"17s": {
+		"type": "apoli:modify_damage_taken",
+		"condition": {
+			"type": "apoli:predicate",
+			"predicate": "pdt-uw:soul_shield/is_strong"
+		},
+		"damage_condition": {
+			"type": "apoli:and",
+			"conditions": [
+				{
+					"type": "apoli:amount",
+					"comparison": ">",
+					"compare_to": 16
+				},
+				{
+					"type": "apoli:amount",
+					"comparison": "<=",
+					"compare_to": 17
+				}
+			]
+		},
+		"modifier": {
+			"operation": "add_base_early",
+			"value": -17
+		},
+		"self_action": {
+			"type": "apoli:execute_command",
+			"command": "scoreboard players remove @s pdt-uw.soul_shield 17"
+		}
+	},
+	"18s": {
+		"type": "apoli:modify_damage_taken",
+		"condition": {
+			"type": "apoli:predicate",
+			"predicate": "pdt-uw:soul_shield/is_strong"
+		},
+		"damage_condition": {
+			"type": "apoli:and",
+			"conditions": [
+				{
+					"type": "apoli:amount",
+					"comparison": ">",
+					"compare_to": 17
+				},
+				{
+					"type": "apoli:amount",
+					"comparison": "<=",
+					"compare_to": 18
+				}
+			]
+		},
+		"modifier": {
+			"operation": "add_base_early",
+			"value": -18
+		},
+		"self_action": {
+			"type": "apoli:execute_command",
+			"command": "scoreboard players remove @s pdt-uw.soul_shield 18"
+		}
+	},
+	"19s": {
+		"type": "apoli:modify_damage_taken",
+		"condition": {
+			"type": "apoli:predicate",
+			"predicate": "pdt-uw:soul_shield/is_strong"
+		},
+		"damage_condition": {
+			"type": "apoli:and",
+			"conditions": [
+				{
+					"type": "apoli:amount",
+					"comparison": ">",
+					"compare_to": 18
+				},
+				{
+					"type": "apoli:amount",
+					"comparison": "<=",
+					"compare_to": 19
+				}
+			]
+		},
+		"modifier": {
+			"operation": "add_base_early",
+			"value": -19
+		},
+		"self_action": {
+			"type": "apoli:execute_command",
+			"command": "scoreboard players remove @s pdt-uw.soul_shield 19"
+		}
+	},
+	"20s": {
+		"type": "apoli:modify_damage_taken",
+		"condition": {
+			"type": "apoli:predicate",
+			"predicate": "pdt-uw:soul_shield/is_strong"
+		},
+		"damage_condition": {
+			"type": "apoli:amount",
+			"comparison": ">",
+			"compare_to": 19
+		},
+		"modifier": {
+			"operation": "add_base_early",
+			"value": -20
+		},
+		"self_action": {
+			"type": "apoli:execute_command",
+			"command": "scoreboard players remove @s pdt-uw.soul_shield 20"
+		}
+	}
+}
