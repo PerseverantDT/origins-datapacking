@@ -1,5 +1,8 @@
 {
-	"powers": [],
+	"powers": [
+		"pdt-uw:soul_shielder/soul_fragments",
+		"pdt-uw:soul_shielder/soul_siphon"
+	],
 	"icon": {
 		"item": "minecraft:shield"
 	},

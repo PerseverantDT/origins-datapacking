@@ -11,12 +11,11 @@ Available for Minecraft 1.19+
 You use Soul Fragments from your enemies to power your abilities. Hitting enemies hard enough with melee attacks or killing enemies steal part of their soul.
 
 - Start with 20 Soul Fragments on spawn
-- On death, lose 30% Soul Fragments
+- On death, lose 40% Soul Fragments
 - On respawn, gain enough Soul Fragments to have at least 20 Soul Fragments
-- Gain 1 Soul Fragment upon dealing 4 damage
-  - Can only happen once every 2 seconds
+- Gain 1 Soul Fragment upon dealing at least 4 melee damage
+  - Can only happen once every 5 seconds
 - Gain 3 Soul Fragments upon killing an enemy with a melee attack
-- Gain 1 Soul Fragments upon killing an enemy with a ranged attack
 
 ### Soul-powered Shield
 

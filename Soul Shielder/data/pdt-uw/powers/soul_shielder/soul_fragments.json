@@ -1,0 +1,38 @@
+{
+	"hidden": true,
+	"type": "apoli:action_on_callback",
+	"entity_action_gained": {
+		"type": "apoli:and",
+		"actions": [
+			{
+				"type": "apoli:execute_command",
+				"command": "function pdt-uw:soul_fragments/init"
+			},
+			{
+				"type": "apoli:execute_command",
+				"command": "scoreboard players set @s pdt-uw.soul_fragments 20"
+			}
+		]
+	},
+	"entity_action_lost": {
+		"type": "apoli:execute_command",
+		"command": "function pdt-uw:soul_fragments/end"
+	},
+	"entity_action_respawned": {
+		"type": "apoli:and",
+		"actions": [
+			{
+				"type": "apoli:execute_command",
+				"command": "scoreboard players operation @s pdt-uw.soul_fragments *= #6 constants"
+			},
+			{
+				"type": "apoli:execute_command",
+				"command": "scoreboard players operation @s pdt-uw.soul_fragments /= #10 constants"
+			},
+			{
+				"type": "apoli:execute_command",
+				"command": "execute if score @s pdt-uw.soul_fragments matches ..19 run scoreboard players set @s pdt-uw.soul_fragments 20"
+			}
+		]
+	}
+}
