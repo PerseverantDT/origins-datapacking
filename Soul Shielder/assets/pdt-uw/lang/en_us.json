@@ -3,5 +3,8 @@
 	"origin.pdt-uw.soul_shielder.description": "A master at manipulating souls, the Soul Shielder uses the lifeforce of its enemies to protect itself and its allies.",
 
 	"power.pdt-uw.soul_shielder/soul_siphon.name": "Soul Siphon",
-	"power.pdt-uw.soul_shielder/soul_siphon.description": "You use Soul Fragments from your enemies to power your abilities. Hitting enemies hard enough with melee attacks or killing enemies steal part of their soul."
+	"power.pdt-uw.soul_shielder/soul_siphon.description": "You use Soul Fragments from your enemies to power your abilities. Hitting enemies hard enough with melee attacks or killing enemies steal part of their soul.",
+
+	"power.pdt-uw.soul_shielder/soul_shield/normal.name": "Soul-powered Shield",
+	"power.pdt-uw.soul_shielder/soul_shield/normal.description": "A protective barrier encases you, reducing the damage you take from anything."
 }

@@ -2,6 +2,7 @@
 	"replace": false,
 	"values": [
 		"pdt-uw:load",
-		"pdt-uw:soul_fragments/load"
+		"pdt-uw:soul_fragments/load",
+		"pdt-uw:soul_shield/load"
 	]
 }
