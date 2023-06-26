@@ -197,7 +197,7 @@
 		"falling_action": {
 			"type": "apoli:set_resource",
 			"resource": "*:*_regen_delay",
-			"value": 50
+			"value": 0
 		}
 	}
 }
