@@ -1,0 +1,31 @@
+{
+	"hidden": true,
+	"type": "apoli:multiple",
+	"timer": {
+		"type": "apoli:resource",
+		"min": 0,
+		"max": 100,
+		"start_value": 0,
+		"hud_render": {
+			"should_render": false
+		}
+	},
+	"ticker": {
+		"type": "apoli:action_over_time",
+		"interval": 2,
+		"entity_action": {
+			"type": "apoli:change_resource",
+			"resource": "*:*_timer",
+			"change": -1
+		}
+	},
+	"reset": {
+		"type": "apoli:self_action_when_hit",
+		"cooldown": 1,
+		"entity_action": {
+			"type": "apoli:set_resource",
+			"resource": "*:*_timer",
+			"value": 100
+		}
+	}
+}
