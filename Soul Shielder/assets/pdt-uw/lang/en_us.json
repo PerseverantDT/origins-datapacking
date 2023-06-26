@@ -6,5 +6,8 @@
 	"power.pdt-uw.soul_shielder/soul_siphon.description": "You use Soul Fragments from your enemies to power your abilities. Hitting enemies hard enough with melee attacks or killing enemies steal part of their soul.",
 
 	"power.pdt-uw.soul_shielder/soul_shield/normal.name": "Soul-powered Shield",
-	"power.pdt-uw.soul_shielder/soul_shield/normal.description": "A protective barrier encases you, reducing the damage you take from anything."
+	"power.pdt-uw.soul_shielder/soul_shield/normal.description": "A protective barrier encases you, reducing the damage you take from anything.",
+
+	"power.pdt-uw.soul_shielder/magic_body.name": "Magic Body",
+	"power.pdt-uw.soul_shielder/magic_body.description": "Your body is made completely out of magic, making you extremely resilient against physical attacks. However, magic attacks deal significantly more damage against you. Moreover, your body only restores its strength after not getting disrupted for a while."
 }
