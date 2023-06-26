@@ -24,11 +24,12 @@ A protective barrier encases you, reducing the damage you take.
 - Start with 0 Shield Strength
 - On death, lose all Shield Strength
 - Shied Strength is uncapped
-- Reduce damage taken by up to 5 HP
-  - Increased to up to 10 HP when at 100 Shield Strength or above
+- Reduce damage taken by up to 10 HP
+  - Reduced to up to 5 HP when below 20 Shield Strength
+  - Increased to up to 10 HP when above 100 Shield Strength
 - -1 Shield Strength for every 1 damage reduced
 - +1 Shield Strength per second
-  - Disabled for 5 seconds upon taking damage
+  - Disabled for 10 seconds upon taking damage
   - Disabled when Shield Strength is at least 20
 
 ### Self Shielding (Primary Ability)
@@ -73,4 +74,4 @@ Your body is made completely out of magic, making you extremely resilient agains
 - Lose hunger 50% slower
 - Cannot regenerate from saturation
 - +2 HP per second
-  - Disabled for 5 seconds after taking damage
+  - Disabled for 10 seconds after taking damage
