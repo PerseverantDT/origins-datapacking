@@ -20,9 +20,12 @@
 		}
 	},
 	"reset": {
-		"type": "apoli:self_action_when_hit",
-		"cooldown": 1,
-		"entity_action": {
+		"type": "apoli:modify_damage_taken",
+		"modifier": {
+			"operation": "add_base_early",
+			"value": 0.0
+		},
+		"self_action": {
 			"type": "apoli:set_resource",
 			"resource": "*:*_timer",
 			"value": 100
