@@ -15,5 +15,8 @@
 	"power.pdt-uw.soul_shielder/stored_lifeforce.description": "When above 20 Soul Fragments, you will automatically consume a soul fragment to heal yourself. This will only heal you up to 75% HP.",
 
 	"power.pdt-uw.soul_shielder/self_shielding.name": "Self Shielding",
-	"power.pdt-uw.soul_shielder/self_shielding.description": "Consume a soul fragment to empower your barrier."
+	"power.pdt-uw.soul_shielder/self_shielding.description": "Consume a soul fragment to empower your barrier.",
+
+	"power.pdt-uw.soul_shielder/experience_transmutation.name": "Experience Transmutation",
+	"power.pdt-uw.soul_shielder/experience_transmutation.description": "Consume an experience level to gain 5 soul fragments."
 }

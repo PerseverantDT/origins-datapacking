@@ -1,0 +1,25 @@
+{
+	"type": "apoli:active_self",
+	"key": {
+		"key": "key.saveToolbarActivator"
+	},
+	"cooldown": 1,
+	"condition": {
+		"type": "apoli:xp_levels",
+		"comparison": ">",
+		"compare_to": 0
+	},
+	"entity_action": {
+		"type": "apoli:and",
+		"actions": [
+			{
+				"type": "apoli:execute_command",
+				"command": "scoreboard players add @s pdt-uw.soul_fragments 5"
+			},
+			{
+				"type": "apoli:add_xp",
+				"levels": -1
+			}
+		]
+	}
+}
