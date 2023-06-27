@@ -51,17 +51,17 @@ Power a field of souls where you stand. Entities inside the field slowly gain a 
   - Entities without Soul-powered Shield will temporarily gain a weaker Soul-powered Shield.
   - This version only protects up to 3 HP, lasts 10 seconds after its last strengthen, and is capped at 50 Shield Strength.
 
-### Stored Lifeforce (Save Toolbar Ability)
+### Experience Transmutation (Save Toolbar Ability)
 
 Consume an experience level to gain 5 soul fragments
 
-### Overflowing Vitality (Passive Ability)
+### Stored Lifeforce (Passive Ability)
 
 When above 20 Soul Fragments, you will automatically consume a soul fragment to heal yourself. This will only heal you up to 75% HP.
 
 - Consume 1 Soul Fragment
 - Heal 2 HP
-- Occurs every second
+- Occurs every half second
 
 ## Buffs/Debuffs
 

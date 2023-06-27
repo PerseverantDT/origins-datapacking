@@ -9,5 +9,8 @@
 	"power.pdt-uw.soul_shielder/soul_shield/normal.description": "A protective barrier encases you, reducing the damage you take from anything.",
 
 	"power.pdt-uw.soul_shielder/magic_body.name": "Magic Body",
-	"power.pdt-uw.soul_shielder/magic_body.description": "Your body is made completely out of magic, making you extremely resilient against physical attacks. However, magic attacks deal significantly more damage against you. Moreover, your body only restores its strength after not getting disrupted for a while."
+	"power.pdt-uw.soul_shielder/magic_body.description": "Your body is made completely out of magic, making you extremely resilient against physical attacks. However, magic attacks deal significantly more damage against you. Moreover, your body only restores its strength after not getting disrupted for a while.",
+
+	"power.pdt-uw.soul_shielder/stored_lifeforce.name": "Stored Lifeforce",
+	"power.pdt-uw.soul_shielder/stored_lifeforce.description": "When above 20 Soul Fragments, you will automatically consume a soul fragment to heal yourself. This will only heal you up to 75% HP."
 }
