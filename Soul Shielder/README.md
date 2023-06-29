@@ -21,9 +21,9 @@ You use Soul Fragments from your enemies to power your abilities. Hitting enemie
 
 A protective barrier encases you, reducing the damage you take.
 
-- Start with 0 Shield Strength
-- On death, lose all Shield Strength
-- Shied Strength is uncapped
+- Start with 20 Shield Strength
+- On death, Shield Strength is reduced to 20 or unaltered when below 20.
+- Shield Strength is uncapped
 - Reduce damage taken by up to 10 HP
   - Reduced to up to 5 HP when below 20 Shield Strength
   - Increased to up to 10 HP when above 100 Shield Strength

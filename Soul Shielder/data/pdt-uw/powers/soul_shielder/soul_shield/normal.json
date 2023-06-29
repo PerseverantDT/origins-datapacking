@@ -9,6 +9,10 @@
 		"entity_action_lost": {
 			"type": "apoli:execute_command",
 			"command": "function pdt-uw:soul_shielder/soul_shield/end"
+		},
+		"entity_action_respawned": {
+			"type": "apoli:execute_command",
+			"command": "function pdt-uw:soul_shielder/soul_shield/respawn"
 		}
 	},
 	"strength": {
