@@ -21,5 +21,8 @@
 	"power.pdt-uw.soul_shielder/experience_transmutation.description": "Consume an experience level to gain 5 soul fragments.",
 
 	"power.pdt-uw.soul_shielder/soul_shield/weak.name": "Soul-powered Shield",
-	"power.pdt-uw.soul_shielder/soul_shield/weak.description": "A protective barrier encases you, reducing the damage you take from anything."
+	"power.pdt-uw.soul_shielder/soul_shield/weak.description": "A protective barrier encases you, reducing the damage you take from anything.",
+
+	"power.pdt-uw.soul_shielder/protective_field.name": "Protective Field",
+	"power.pdt-uw.soul_shielder/protective_field.description": "Summon a field of souls where you stand. Entities inside the field slowly gain a protective barrier that protects them from damage."
 }

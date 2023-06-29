@@ -42,14 +42,18 @@ Consume a soul fragment to empower your barrier.
 
 ### Protective Field (Second Ability)
 
-Power a field of souls where you stand. Entities inside the field slowly gain a protective barrier that protects them from damage.
+Summon a field of souls where you stand. Entities inside the field slowly gain a protective barrier that protects them from damage.
 
 - Cooldown: 10 seconds
 - Consumes 3 Soul Fragments
-- Duration: 5 seconds
-- +3 Shield Strength every second
-  - Entities without Soul-powered Shield will temporarily gain a weaker Soul-powered Shield.
-  - This version only protects up to 3 HP, lasts 10 seconds after its last strengthen, and is capped at 50 Shield Strength.
+- Summons a 5-block wide area of effect
+  - +5 Shield Strength for entities inside the area of effect
+    - Entities without Soul-powered Shield will temporarily gain a weaker Soul-powered Shield.
+    - This version only protects up to 5 HP, lasts 10 seconds after its last strengthen, and is capped at 50 Shield Strength.
+  - Ticks every second
+    - The first tick is delayed by half a second
+  - Lasts 5 effect ticks
+  - Requires line of sight with the center of the AoE
 
 ### Experience Transmutation (Save Toolbar Ability)
 

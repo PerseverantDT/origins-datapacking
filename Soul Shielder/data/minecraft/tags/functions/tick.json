@@ -2,6 +2,7 @@
 	"replace": false,
 	"values": [
 		"pdt-uw:soul_fragments/tick",
-		"pdt-uw:soul_shield/tick"
+		"pdt-uw:soul_shield/tick",
+		"pdt-uw:protective_field/tick"
 	]
 }
