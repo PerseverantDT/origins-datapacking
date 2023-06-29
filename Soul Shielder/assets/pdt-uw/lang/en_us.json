@@ -18,5 +18,8 @@
 	"power.pdt-uw.soul_shielder/self_shielding.description": "Consume a soul fragment to empower your barrier.",
 
 	"power.pdt-uw.soul_shielder/experience_transmutation.name": "Experience Transmutation",
-	"power.pdt-uw.soul_shielder/experience_transmutation.description": "Consume an experience level to gain 5 soul fragments."
+	"power.pdt-uw.soul_shielder/experience_transmutation.description": "Consume an experience level to gain 5 soul fragments.",
+
+	"power.pdt-uw.soul_shielder/soul_shield/weak.name": "Soul-powered Shield",
+	"power.pdt-uw.soul_shielder/soul_shield/weak.description": "A protective barrier encases you, reducing the damage you take from anything."
 }
