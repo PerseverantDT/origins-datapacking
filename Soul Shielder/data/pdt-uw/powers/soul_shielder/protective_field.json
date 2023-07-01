@@ -6,7 +6,7 @@
 	"cooldown": 200,
 	"condition": {
 		"type": "apoli:command",
-		"command": "scoreboard players get @s pdt-uw.soul_shield",
+		"command": "scoreboard players get @s pdt-uw.soul_fragments",
 		"comparison": ">=",
 		"compare_to": 3
 	},
