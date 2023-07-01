@@ -203,5 +203,66 @@
 			"resource": "*:*_regen_delay",
 			"value": 0
 		}
+	},
+	"color_weak": {
+		"type": "apoli:model_color",
+		"condition": {
+			"type": "apoli:and",
+			"conditions": [
+				{
+					"type": "apoli:resource",
+					"resource": "*:*_strength",
+					"comparison": ">",
+					"compare_to": 0
+				},
+				{
+					"type": "apoli:resource",
+					"resource": "*:*_strength",
+					"comparison": "<",
+					"compare_to": 20
+				}
+			]
+		},
+		"red": 0.85,
+		"green": 0.95,
+		"blue": 1,
+		"alpha": 1
+	},
+	"color_normal": {
+		"type": "apoli:model_color",
+		"condition": {
+			"type": "apoli:and",
+			"conditions": [
+				{
+					"type": "apoli:resource",
+					"resource": "*:*_strength",
+					"comparison": ">=",
+					"compare_to": 20
+				},
+				{
+					"type": "apoli:resource",
+					"resource": "*:*_strength",
+					"comparison": "<=",
+					"compare_to": 100
+				}
+			]
+		},
+		"red": 0.7,
+		"green": 0.9,
+		"blue": 1,
+		"alpha": 1
+	},
+	"color_strong": {
+		"type": "apoli:model_color",
+		"condition": {
+			"type": "apoli:resource",
+			"resource": "*:*_strength",
+			"comparison": ">",
+			"compare_to": 100
+		},
+		"red": 0.55,
+		"green": 0.85,
+		"blue": 1,
+		"alpha": 1
 	}
 }
