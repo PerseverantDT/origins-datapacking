@@ -1,0 +1,95 @@
+{
+	"type": "apoli:multiple",
+	"tick": {
+		"type": "apoli:resource",
+		"min": 0,
+		"max": 5,
+		"max_action": {
+			"type": "apoli:revoke_power",
+			"power": "*:*",
+			"source": "pdt-uw:protective_field_tick"
+		},
+		"hud_render": {
+			"should_render": false
+		}
+	},
+	"ticker": {
+		"type": "apoli:action_over_time",
+		"interval": 2,
+		"entity_action": {
+			"type": "apoli:and",
+			"actions": [
+				{
+					"type": "apoli:if_else_list",
+					"actions": [
+						{
+							"condition": {
+								"type": "apoli:resource",
+								"resource": "*:*_tick",
+								"comparison": "==",
+								"compare_to": 0
+							},
+							"action": {
+								"type": "apoli:execute_command",
+								"command": "function pdt-uw:protective_field/visuals/0"
+							}
+						},
+						{
+							"condition": {
+								"type": "apoli:resource",
+								"resource": "*:*_tick",
+								"comparison": "==",
+								"compare_to": 1
+							},
+							"action": {
+								"type": "apoli:execute_command",
+								"command": "function pdt-uw:protective_field/visuals/1"
+							}
+						},
+						{
+							"condition": {
+								"type": "apoli:resource",
+								"resource": "*:*_tick",
+								"comparison": "==",
+								"compare_to": 2
+							},
+							"action": {
+								"type": "apoli:execute_command",
+								"command": "function pdt-uw:protective_field/visuals/2"
+							}
+						},
+						{
+							"condition": {
+								"type": "apoli:resource",
+								"resource": "*:*_tick",
+								"comparison": "==",
+								"compare_to": 3
+							},
+							"action": {
+								"type": "apoli:execute_command",
+								"command": "function pdt-uw:protective_field/visuals/3"
+							}
+						},
+						{
+							"condition": {
+								"type": "apoli:resource",
+								"resource": "*:*_tick",
+								"comparison": "==",
+								"compare_to": 4
+							},
+							"action": {
+								"type": "apoli:execute_command",
+								"command": "function pdt-uw:protective_field/visuals/4"
+							}
+						}
+					]
+				},
+				{
+					"type": "apoli:change_resource",
+					"resource": "*:*_tick",
+					"change": 1
+				}
+			]
+		}
+	}
+}

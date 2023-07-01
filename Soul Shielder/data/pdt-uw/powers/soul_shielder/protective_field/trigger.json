@@ -28,40 +28,72 @@
 					]
 				},
 				"bientity_action": {
-					"type": "apoli:if_else",
-					"condition": {
-						"type": "apoli:target_condition",
-						"condition": {
-							"type": "apoli:command",
-							"command": "execute if entity @s[tag=pdt-uw.soul_shield]",
-							"comparison": "==",
-							"compare_to": 1
-						}
-					},
-					"if_action": {
-						"type": "apoli:target_action",
-						"action": {
-							"type": "apoli:and",
-							"actions": [
-								{
-									"type": "apoli:execute_command",
-									"command": "scoreboard players add @s pdt-uw.soul_shield 5"
-								},
-								{
-									"type": "apoli:execute_command",
-									"command": "execute if entity @s[tag=pdt-uw.soul_shield.temp] run scoreboard players set @s pdt-uw.soul_shield.duration 200"
+					"type": "apoli:and",
+					"actions": [
+						{
+							"type": "apoli:if_else",
+							"condition": {
+								"type": "apoli:target_condition",
+								"condition": {
+									"type": "apoli:command",
+									"command": "execute if entity @s[tag=pdt-uw.soul_shield]",
+									"comparison": "==",
+									"compare_to": 1
 								}
-							]
+							},
+							"if_action": {
+								"type": "apoli:target_action",
+								"action": {
+									"type": "apoli:and",
+									"actions": [
+										{
+											"type": "apoli:execute_command",
+											"command": "scoreboard players add @s pdt-uw.soul_shield 5"
+										},
+										{
+											"type": "apoli:execute_command",
+											"command": "execute if entity @s[tag=pdt-uw.soul_shield.temp] run scoreboard players set @s pdt-uw.soul_shield.duration 200"
+										}
+									]
+								}
+							},
+							"else_action": {
+								"type": "apoli:target_action",
+								"action": {
+									"type": "apoli:grant_power",
+									"power": "*:soul_shielder/soul_shield/weak",
+									"source": "pdt-uw:soul_shielder_ability"
+								}
+							}
+						},
+						{
+							"type": "apoli:if_else",
+							"condition": {
+								"type": "apoli:target_condition",
+								"condition": {
+									"type": "apoli:power",
+									"power": "*:soul_shielder/protective_field/visuals",
+									"source": "pdt-uw:protective_field_tick"
+								}
+							},
+							"if_action": {
+								"type": "apoli:target_action",
+								"action": {
+									"type": "apoli:set_resource",
+									"resource": "*:soul_shielder/protective_field/visuals_tick",
+									"value": 0
+								}
+							},
+							"else_action": {
+								"type": "apoli:target_action",
+								"action": {
+									"type": "apoli:grant_power",
+									"power": "*:soul_shielder/protective_field/visuals",
+									"source": "pdt-uw:protective_field_tick"
+								}
+							}
 						}
-					},
-					"else_action": {
-						"type": "apoli:target_action",
-						"action": {
-							"type": "apoli:grant_power",
-							"power": "*:soul_shielder/soul_shield/weak",
-							"source": "pdt-uw:soul_shielder_ability"
-						}
-					}
+					]
 				}
 			},
 			{
