@@ -71,10 +71,10 @@ When above 20 Soul Fragments, you will automatically consume a soul fragment to 
 
 ### Magic Body
 
-Your body is made completely out of magic, making you extremely resilient against physical attacks. However, magic attacks deal significantly more damage against you. Moreover, your body only restores its strength after not getting disrupted for a while.
+Your body is made completely out of magic, making you extremely resilient against magical attacks. However, physical attacks heavily disrupt your form, making you much more vulnerable to them. Additionally, your body only restores itself after not getting damaged for a while.
 
-- Take 40% less physical damage
-- Take 100% more magical damage
+- Take 80% more physical damage
+- Take 30% less magical damage
 - Lose hunger 50% slower
 - Cannot regenerate from saturation
 - +0.5 HP per second
