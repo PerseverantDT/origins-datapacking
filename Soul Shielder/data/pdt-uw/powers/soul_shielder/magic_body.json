@@ -43,7 +43,7 @@
 		},
 		"entity_action": {
 			"type": "apoli:heal",
-			"amount": 0.4
+			"amount": 0.1
 		}
 	}
 }

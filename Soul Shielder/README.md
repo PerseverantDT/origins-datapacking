@@ -77,5 +77,5 @@ Your body is made completely out of magic, making you extremely resilient agains
 - Take 100% more magical damage
 - Lose hunger 50% slower
 - Cannot regenerate from saturation
-- +2 HP per second
+- +0.5 HP per second
   - Disabled for 10 seconds after taking damage
