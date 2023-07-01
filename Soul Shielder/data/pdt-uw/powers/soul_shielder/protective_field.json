@@ -22,5 +22,10 @@
 				"command": "scoreboard players remove @s pdt-uw.soul_fragments 3"
 			}
 		]
+	},
+	"hud_render": {
+		"should_render": true,
+		"sprite_location": "pdt-uw:textures/gui/resource_bars/protective_field.png",
+		"bar_index": 0
 	}
 }
