@@ -19,7 +19,7 @@
 			},
 			{
 				"type": "apoli:execute_command",
-				"command": "scoreboard players remove pdt-uw.soul_fragments 3"
+				"command": "scoreboard players remove @s pdt-uw.soul_fragments 3"
 			}
 		]
 	}
