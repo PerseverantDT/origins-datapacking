@@ -54,10 +54,12 @@ With control over fire, the Flame Warrior can inflict heavy fire damage against 
       - Unarmed: Set your target on fire for 9 seconds.
     - Flame Barrier creates a 15 HP barrier.
     - Flame Barrier is no longer affected by biome temperatures.
-- Thick Hide: Your body is more resilient to physical damage. However, your movement is slightly hindered.
+- Thick Hide: Your body is more resilient to physical damage. However, your movement is slightly hindered and your regeneration is slightly slower.
   - Take 20% less physical damage
     - Self-inflicted damage is not reduced
   - Move 10% slower
+  - Regenerate HP 10% slower
+    - Stacks multiplicatively with Ectothermic
 - Severe Hydroasthenia: Being in contact with water after a short while severely weakens you.
   - After being in contact with water for 2 seconds:
     - Take 50% more damage from all sources
