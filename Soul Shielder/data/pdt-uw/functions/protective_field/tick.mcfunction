@@ -1,0 +1,1 @@
+execute as @e[tag=pdt-uw.protective_field_origin] run function pdt-uw:protective_field/update

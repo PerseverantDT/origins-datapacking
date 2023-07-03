@@ -1,0 +1,7 @@
+{
+	"replace": false,
+	"values": [
+		"#minecraft:witch_resistant_to",
+		"minecraft:dragon_breath"
+	]
+}

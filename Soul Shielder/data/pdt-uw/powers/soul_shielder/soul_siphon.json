@@ -1,0 +1,43 @@
+{
+	"type": "apoli:multiple",
+	"gain_on_hit": {
+		"type": "apoli:self_action_on_hit",
+		"cooldown": 100,
+		"damage_condition": {
+			"type": "apoli:and",
+			"conditions": [
+				{
+					"type": "apoli:projectile",
+					"inverted": true
+				},
+				{
+					"type": "apoli:amount",
+					"comparison": ">=",
+					"compare_to": 4.0
+				}
+			]
+		},
+		"entity_action": {
+			"type": "apoli:execute_command",
+			"command": "scoreboard players add @s pdt-uw.soul_fragments 1"
+		},
+		"hud_render": {
+			"should_render": false
+		}
+	},
+	"gain_on_melee_kill": {
+		"type": "apoli:self_action_on_kill",
+		"cooldown": 1,
+		"damage_condition": {
+			"type": "apoli:projectile",
+			"inverted": true
+		},
+		"entity_action": {
+			"type": "apoli:execute_command",
+			"command": "scoreboard players add @s pdt-uw.soul_fragments 3"
+		},
+		"hud_render": {
+			"should_render": false
+		}
+	}
+}

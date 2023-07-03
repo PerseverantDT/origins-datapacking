@@ -1,0 +1,19 @@
+{
+	"powers": [
+		"pdt:combat",
+		"pdt-uw:soul_shielder/soul_fragments",
+		"pdt-uw:soul_shielder/soul_siphon",
+		"pdt-uw:soul_shielder/soul_shield/normal",
+		"pdt-uw:soul_shielder/self_shielding",
+		"pdt-uw:soul_shielder/protective_field",
+		"pdt-uw:soul_shielder/experience_transmutation",
+		"pdt-uw:soul_shielder/stored_lifeforce",
+		"pdt-uw:soul_shielder/magic_body"
+	],
+	"icon": {
+		"item": "minecraft:shield"
+	},
+	"unchoosable": false,
+	"order": 10,
+	"impact": 2
+}

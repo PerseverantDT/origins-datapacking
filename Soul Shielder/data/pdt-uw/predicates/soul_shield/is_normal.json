@@ -1,0 +1,10 @@
+{
+	"condition": "entity_scores",
+	"entity": "this",
+	"scores": {
+		"pdt-uw.soul_shield": {
+			"min": 20,
+			"max": 100
+		}
+	}
+}

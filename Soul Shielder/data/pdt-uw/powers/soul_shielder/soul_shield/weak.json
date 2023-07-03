@@ -1,0 +1,50 @@
+{
+	"type": "apoli:multiple",
+	"callbacks": {
+		"type": "apoli:action_on_callback",
+		"entity_action_gained": {
+			"type": "apoli:execute_command",
+			"command": "function pdt-uw:soul_shielder/weak_soul_shield/init"
+		},
+		"entity_action_lost": {
+			"type": "apoli:execute_command",
+			"command": "function pdt-uw:soul_shielder/weak_soul_shield/end"
+		},
+		"entity_action_respawned": {
+			"type": "apoli:revoke_power",
+			"power": "*:*",
+			"source": "pdt-uw:soul_shielder_ability"
+		}
+	},
+	"strength": {
+		"type": "apoli:resource",
+		"min": 0,
+		"min_action": {
+			"type": "apoli:revoke_power",
+			"power": "*:*",
+			"source": "pdt-uw:soul_shielder_ability"
+		},
+		"max": 50,
+		"start_value": 1,
+		"hud_render": {
+			"should_render": true,
+			"sprite_location": "pdt-uw:textures/gui/resource_bars/soul_shield_weak.png",
+			"bar_index": 1
+		}
+	},
+	"tick": {
+		"type": "apoli:action_over_time",
+		"interval": 1,
+		"entity_action": {
+			"type": "apoli:execute_command",
+			"command": "resource operation @s pdt-uw:soul_shielder/soul_shield/weak_strength = @s pdt-uw.soul_shield"
+		}
+	},
+	"color": {
+		"type": "apoli:model_color",
+		"red": 0.85,
+		"green": 0.95,
+		"blue": 1,
+		"alpha": 1
+	}
+}

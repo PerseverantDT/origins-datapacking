@@ -1,0 +1,28 @@
+{
+	"origin.pdt-uw.soul_shielder.name": "Soul Shielder",
+	"origin.pdt-uw.soul_shielder.description": "A master at manipulating souls, the Soul Shielder uses the lifeforce of its enemies to protect itself and its allies.",
+
+	"power.pdt-uw.soul_shielder/soul_siphon.name": "Soul Siphon",
+	"power.pdt-uw.soul_shielder/soul_siphon.description": "You use Soul Fragments from your enemies to power your abilities. Hitting enemies hard enough with melee attacks or killing enemies steal part of their soul.",
+
+	"power.pdt-uw.soul_shielder/soul_shield/normal.name": "Soul-powered Shield",
+	"power.pdt-uw.soul_shielder/soul_shield/normal.description": "A protective barrier encases you, reducing the damage you take from anything.",
+
+	"power.pdt-uw.soul_shielder/magic_body.name": "Magic Body",
+	"power.pdt-uw.soul_shielder/magic_body.description": "Your body is made mostly of magic, making you extremely resilient against physical attacks. However, magic attacks deal significantly more damage against you. Moreover, your body only restores its strength after not getting damaged for a while.",
+
+	"power.pdt-uw.soul_shielder/stored_lifeforce.name": "Stored Lifeforce",
+	"power.pdt-uw.soul_shielder/stored_lifeforce.description": "When above 20 Soul Fragments, you will automatically consume a soul fragment to heal yourself. This will only heal you up to 75% HP.",
+
+	"power.pdt-uw.soul_shielder/self_shielding.name": "Self Shielding",
+	"power.pdt-uw.soul_shielder/self_shielding.description": "Consume a soul fragment to empower your barrier.",
+
+	"power.pdt-uw.soul_shielder/experience_transmutation.name": "Experience Transmutation",
+	"power.pdt-uw.soul_shielder/experience_transmutation.description": "Consume an experience level to gain 5 soul fragments.",
+
+	"power.pdt-uw.soul_shielder/soul_shield/weak.name": "Soul-powered Shield",
+	"power.pdt-uw.soul_shielder/soul_shield/weak.description": "A protective barrier encases you, reducing the damage you take from anything.",
+
+	"power.pdt-uw.soul_shielder/protective_field.name": "Protective Field",
+	"power.pdt-uw.soul_shielder/protective_field.description": "Summon a field of souls where you stand. Entities inside the field slowly gain a protective barrier that protects them from damage."
+}

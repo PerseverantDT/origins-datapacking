@@ -1,0 +1,31 @@
+{
+	"type": "apoli:active_self",
+	"key": {
+		"key": "key.origins.secondary_active"
+	},
+	"cooldown": 200,
+	"condition": {
+		"type": "apoli:command",
+		"command": "scoreboard players get @s pdt-uw.soul_fragments",
+		"comparison": ">=",
+		"compare_to": 3
+	},
+	"entity_action": {
+		"type": "apoli:and",
+		"actions": [
+			{
+				"type": "apoli:execute_command",
+				"command": "execute summon minecraft:armor_stand run function pdt-uw:protective_field/init"
+			},
+			{
+				"type": "apoli:execute_command",
+				"command": "scoreboard players remove @s pdt-uw.soul_fragments 3"
+			}
+		]
+	},
+	"hud_render": {
+		"should_render": true,
+		"sprite_location": "pdt-uw:textures/gui/resource_bars/protective_field.png",
+		"bar_index": 0
+	}
+}
